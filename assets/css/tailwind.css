@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, input, select, textarea, button {
+  font-family: 'Mulish', sans-serif;
+}
+
+.normal { background: #929da3; }
+.fighting { background: #8E3E1E; }
+.flying { background: #5317FC; }
+.poison { background: #AF08FE; }
+.ground { background: #85826E; }
+.rock { background: #c6b68c; }
+.bug { background: #91c12e; }
+.ghost { background: #5369ad; }
+.steel { background: #5a8ea2; }
+.fire { background: #FE0808; }
+.water { background: #00A3FF; }
+.grass { background: #08FEC3; }
+.electric { background: #FFB800; }
+.psychic { background: #fa7179; }
+.ice { background: #73cec0; }
+.dragon { background: #0a6dc3; }
+.dark { background: #5a5465; }
+.fairy { background: #FBA1EC; }
+.physical { background: #8E3E1E; }
+.special { background: #FFB800; }
+.status { background: #AF08FE; }
